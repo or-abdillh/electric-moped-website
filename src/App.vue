@@ -1,8 +1,18 @@
 <template>
-    <h1 class="text-center text-accent">hello</h1>
-    <BeakerIcon class="w-6 h-6 text-blue-500" />
+    <Navbar />
+
+    <!-- main section -->
+    <main class="xl:px-12 xl:py-2">
+        <!-- Copy Writers -->
+        <CopyWriters />
+
+        <!-- Jumbotron -->
+        <Jumbotron />
+    </main>
 </template>
 
 <script setup lang="ts">
-import { BeakerIcon } from "@heroicons/vue/24/solid";
+import Navbar from "@components/Navbar.vue";
+import CopyWriters from "@components/CopyWriters.vue";
+import Jumbotron from "@components/Jumbotron.vue";
 </script>

@@ -8,6 +8,7 @@ export default {
                 primary: "#E9EBEA",
                 secondary: "#CECFD1",
                 accent: "#141311",
+                "gray-smoke": "#D0D1D3",
             },
         },
     },
